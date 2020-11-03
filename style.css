@@ -1,0 +1,8 @@
+header {
+  text-align: center;
+}
+.navigaatio {
+  position: fixed;
+  top: 500;
+  left: 5px;
+}
