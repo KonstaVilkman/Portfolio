@@ -2,57 +2,64 @@
 <html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
-		form {
-			padding: 50px;
-		}
-
-		h1 {
-			padding: 50px;
-		}
-    p {
-      padding: 50px;
-    }
 	</style>
 	<title>Ota Yhteyttä</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
+	<!-------------S navigaatio-------------->
+	<div class="navigationi">
+		<div id="mySidenav" class="sidenav">
+			<!-- X nappula joka sulkee navigaation javascriptin yhteydessä.-->
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="index.html">Main menu</a>
+			<a href="twitch.tv/kapsif">Twitch</a>
+			<a href="https://www.youtube.com/channel/UCQJSyG90inOMs_M_6EqXqcQ/featured">Youtube</a>
+			<a href="contactme.html">Contact me</a>
+		</div>
 
-	<h1>Ota minuun yhteyttä...</h1>
-	<p>Sinun yhteystiedot
-		<form action="" method="" <label> Etunimi ja sukunimi</label>
-			<input type="text" placeholder="Etunimi"
-      
-      <label>             </label>
-        <input type="text" placeholder="Sukunimi" <br><br><br>
+		<!--Navigaation avaus nappi-->
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Info</span>
+</div>
 
-      <label> Sähköposti  </label>
-        <input type="email" placeholder="Kirjoita sähköposti" <br><br> <br>
 
-      <label> Ikä         </label>
-        <input type="number" placeholder="Ikäsi" <br><br><br>
+	<h1>Contact me</h1>
+  <h3>Please fill in your contacts</h3>
+ <div class="contactmee">
+	
+		<form action="" method="" <label> First and lastname<br></label>
+			<input type="text" placeholder="Your full name" <br></br><br>
 
-      <label>Syntymäpäivä </label>
+      <label> Email <br> </label>
+        <input type="email" placeholder="Email" <br><br> <br>
+
+      <label> Phone number<br> </label>
+        <input type="text" placeholder="Phone number" <br><br><br>
+
+      <label>Birthday<br> </label>
         <input type="date" placeholder="" <br><br><br>
 
-      <label> Tekstikenttä</label>
-       <textarea></textarea> <br></br><br>
+      <label> Why are you contacting me? <br></label>
+       <textarea></textarea> <br><br>
 
-      <label> Millä tavalla haluat minun ottavan yhteyttä:</label>
+      <label> Which way do you want me to contact you<br></label>
       <select>
-        <option value="Hyundei">Hyundai</option>
-        <option value="Volvo">Volvo</option>
-        <option value="Saab">Saab</option>
+        <option value="Puhelin">Phone</option>
+        <option value="Email">Email</option>
+        <option value="00000">None of the above</option>
       </select>
-      <select multiple size="3">
-        <option value="Hyundei">Hyundai</option>
-        <option value="Volvo">Volvo</option>
-        <option value="Saab">Saab</option>
-      </select>
+      <br><br>
       <input type="submit">
-      <button>Lähetä</button>
-.</p>
+</div>
 
+    <div class="logo">
+     <a href="twitch.tv/kapsif ">
+    <img  src="Images/logo.gif" alt="logo" href="twitch.tv/kapsif "; style="width=80px; height:80px;">
+    </a> 
+    </div>
 </body>
 </html>
