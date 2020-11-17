@@ -13,13 +13,22 @@
 <body>
 	<!-------------S navigaatio-------------->
 	<div class="navigationi">
-		<div id="mySidenav" class="sidenav">
+		<div id="Sidenavv" class="sidenav">
 			<!-- X nappula joka sulkee navigaation javascriptin yhteydessä.-->
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<a href="index.html">Main menu</a>
 			<a href="twitch.tv/kapsif">Twitch</a>
 			<a href="https://www.youtube.com/channel/UCQJSyG90inOMs_M_6EqXqcQ/featured">Youtube</a>
 			<a href="contactme.html">Contact me</a>
+
+    <div class="dropdown">
+       <label class="dropbtn">Settings</label>
+      <div class="dropdown-content">
+         <button onclick="myFunction()">Toggle Night mode</button>
+      </div>
+    </div>   
+	</div>
+
 		</div>
 
 		<!--Navigaation avaus nappi-->
@@ -56,10 +65,10 @@
       <input type="submit">
 </div>
 
-    <div class="logo">
+  <div class="logo">
      <a href="twitch.tv/kapsif ">
-    <img  src="Images/logo.gif" alt="logo" href="twitch.tv/kapsif "; style="width=80px; height:80px;">
+     <img  src="Images/logo.gif" alt="logo" href="twitch.tv/kapsif "; style="width=80px;height:80px;">
     </a> 
-    </div>
+  </div>
 </body>
 </html>
