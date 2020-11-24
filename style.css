@@ -107,6 +107,7 @@ h3 {
   align: center;
   margin-left:auto; 
   margin-right:auto;
+  border-collapse: collapse;
 }
 .taulukko tr {
   border-radius: 20px;
