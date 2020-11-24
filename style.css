@@ -104,6 +104,7 @@ h3 {
   text-align: center;
 }
 .taulukko table {
+  border-radius: 20px;
   text-align: center;
   margin-left: 30%;
   margin-right: 30%;
