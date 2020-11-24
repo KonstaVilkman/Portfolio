@@ -110,6 +110,7 @@ h3 {
   margin-right: 30%;
 }
 .taulukko tr {
+  border-radius: 20px;
   padding: 10px;
 }
 .portfoliotext p {
